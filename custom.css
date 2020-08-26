@@ -1,0 +1,31 @@
+
+
+p {
+  font-size:5vw;
+  
+}
+
+body {
+    background-color: lightblue;
+  }
+
+.image-padding {
+    padding-top: 7px;
+    /* padding-right: 70px; */
+    padding-bottom: 7px;
+    padding-left: 10px;
+  }
+
+  .port-padding{
+    padding-top: 3px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+  }
+  .highlightme {
+    background-color: #595453;
+  }
+  .responsive {
+    width: auto;
+    height: auto;
+  }
