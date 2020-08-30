@@ -5,13 +5,13 @@ p {
   
 }
 
+
 body {
     background-color: lightblue;
   }
 
 .image-padding {
     padding-top: 7px;
-    /* padding-right: 70px; */
     padding-bottom: 7px;
     padding-left: 10px;
   }
@@ -28,4 +28,19 @@ body {
   .responsive {
     width: auto;
     height: auto;
+  }
+  
+  .wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+  }
+
+  .footer,
+  .push {
+    height: 50px;
+  }
+
+  .responsive:hover {
+    width: 450px;
+
   }

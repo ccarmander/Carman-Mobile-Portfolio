@@ -17,18 +17,26 @@
 
 <!--Header-->
 
-<body>
+<body class="d-flex flex-column min-vh-100">
   <header>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+            <!-- Navbar brand -->
             <a class="navbar-brand" href="index.html">Christopher J. Carman</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-              aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+
+            <!-- Collapse button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+              aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarText">
+
+            <!-- Collapsible content -->
+            <div class="collapse navbar-collapse" id="basicExampleNav">
+
+              <!-- Links -->
               <ul class="navbar-nav ml-md-auto">
                 <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
@@ -39,16 +47,19 @@
                 <li class="nav-item active">
                   <a class="nav-link" href="index.html">About</a>
                 </li>
-              </ul>
+              </ul> <!-- Links -->
             </div>
+            <!-- Collapsible content -->
+
           </nav>
         </div>
       </div>
     </div>
   </header>
 
+
   <!--About Me-->
-  <section>
+  <section class="wrapper">
     <div class="container">
       <div class="row">
         <div class="col-md-12" style="margin-top:5em">
@@ -93,8 +104,10 @@
         </div>
       </div>
     </div>
+    <div class="push"></div>
   </section>
-  <footer>
+  <footer class="mt-auto">
+
     <div class="footer navbar-fixed-bottom">
       <div class="container">
         <div class="row">
@@ -104,6 +117,7 @@
                 <div class="footer-copyright text-center py-3" style="font-size: 26px">Follow me at:
                   <a href="https://www.twitch.tv/kingcarman?twitch5=0"><i class="fa fa-twitch"></i></a>
                   <a href="https://twitter.com/KingCarman"><i class="fa fa-twitter"></i></a>
+                  <a href="https://www.linkedin.com/in/christopher-carman-75257376/"><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </footer>
@@ -112,6 +126,18 @@
       </div>
     </div>
   </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
